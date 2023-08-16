@@ -14,6 +14,6 @@ class language {
     }
 }
 let languageObjects = []
-languageObjects[0] = new language(languages[0],"Spain","Medium","English")
+languageObjects.push(new language(languages[0],"Spain","Medium","English"))
 
 console.log(languageObjects)
